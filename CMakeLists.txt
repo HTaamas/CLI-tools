@@ -8,4 +8,5 @@ add_executable(basic_cli_tools main.cpp
         tools/subnet.cpp
         tools/binary.cpp
         tools/morse.cpp
-        tools/number.cpp)
+        tools/number.cpp
+        tools/portscan.cpp)
