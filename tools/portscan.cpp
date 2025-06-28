@@ -11,7 +11,7 @@
 int portScan() {
     std::cout << "Port scanner" << std::endl;
     std::string IP;
-    std::list<std::string> ports_open;
+    std::list<int> ports_open;
 
     std::cout << "Type IP: ";
     std::getline(std::cin, IP);
