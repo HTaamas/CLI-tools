@@ -7,6 +7,7 @@
 
 int subnet();
 int binaryToDecimal();
+int decimalToBinary();
 int toMorse();
 int fromMorse();
 int fromNumericalToAlphabetical();
