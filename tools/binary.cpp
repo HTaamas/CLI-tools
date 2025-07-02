@@ -26,17 +26,17 @@ int binaryToDecimal() {
 
 int decimalToBinary() {
     std::cout << "Decimal to Binary" << std::endl;
-    std::string s_decimal;
+    std::string stringDecimal;
     std::string result;
 
     std::cout << "Type decimal number: ";
-    std::getline(std::cin, s_decimal);
+    std::getline(std::cin, stringDecimal);
 
-    int decimal = std::stoi(s_decimal);
+    int intDecimal = std::stoi(stringDecimal);
 
-    while (decimal > 0) {
-        result = std::to_string(decimal % 2) + result;
-        decimal /= 2;
+    while (intDecimal > 0) {
+        result = std::to_string(intDecimal % 2) + result;
+        intDecimal /= 2;
     }
 
     std::cout << "Result: " << result << std::endl;

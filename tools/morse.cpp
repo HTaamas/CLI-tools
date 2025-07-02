@@ -67,11 +67,11 @@ std::map<char, std::string> morse = {
     {'@', ".--.-."}
 };
 
-std::map<std::string, char> reverse_morse;
+std::map<std::string, char> reverseMorse;
 
 void buildReverseMapMorse() {
     for (const auto& [ch, code] : morse) {
-        reverse_morse[code] = ch;
+        reverseMorse[code] = ch;
     }
 }
 
@@ -122,8 +122,8 @@ int fromMorse() {
             spaceCount++;
 
             if (!currentChar.empty()) {
-                auto it = reverse_morse.find(currentChar);
-                if (it != reverse_morse.end()) {
+                auto it = reverseMorse.find(currentChar);
+                if (it != reverseMorse.end()) {
                     result += it->second;
                 } else {
                     result += '?';
@@ -138,8 +138,8 @@ int fromMorse() {
     }
 
     if (!currentChar.empty()) {
-        auto it = reverse_morse.find(currentChar);
-        if (it != reverse_morse.end()) {
+        auto it = reverseMorse.find(currentChar);
+        if (it != reverseMorse.end()) {
             result += it->second;
         } else {
             result += '?';
