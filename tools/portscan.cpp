@@ -32,11 +32,11 @@ int portScan() {
     std::cout << "Type IP: ";
     std::getline(std::cin, IP);
 
-    for (int i = 0; i < 1023; i++) {
+    for (int i = 0; i < 65535; i++) {
 
     }
 
-    std::cout << "Ports opened from 1-1023 on " << IP << std::endl;
+    std::cout << "Ports opened from 1-65535 on " << IP << std::endl;
     for (int i = 1; i < portsOpen.size(); i++) {
         std::cout << "[✓] " << i << std::endl;
     }

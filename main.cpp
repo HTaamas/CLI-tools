@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    const list<string> tools = {"1. Subnet calculator", "2. Binary to Decimal", "3. Decimal to Binary", "4. To Morse", "5. From Morse", "6. From Alphabetical to Numerical", "7. From Numerical to Alphabetical", "8. Port Scanner"};
+    const list<string> tools = {"1. Subnet calculator", "2. Binary to Decimal", "3. Decimal to Binary", "4. To Morse", "5. From Morse", "6. From Alphabetical to Numerical", "7. From Numerical to Alphabetical"/*, "8. Port Scanner"*/};
     std::cout << "Tools:" << endl;
 
     for (const string& tool : tools) {
@@ -26,7 +26,7 @@ int main() {
         case 5: fromMorse(); break;
         case 6: fromAlphabeticalToNumerical(); break;
         case 7: fromNumericalToAlphabetical(); break;
-        case 8: portScan(); break;
+        // case 8: portScan(); break;
         default: cout << "Invalid choice" << endl;
     }
 

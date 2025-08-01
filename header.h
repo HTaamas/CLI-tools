@@ -12,6 +12,6 @@ int toMorse();
 int fromMorse();
 int fromNumericalToAlphabetical();
 int fromAlphabeticalToNumerical();
-int portScan();
+// int portScan();
 
 #endif //HEADER_H
