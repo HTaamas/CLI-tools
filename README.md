@@ -13,10 +13,10 @@ This program currently supports the following tools:
 5. **Morse Code to Text Converter**
 6. **Alphabetical to Numerical Converter**
 
-   * Example: A → 1, B → 2, ..., Z → 26
+   * Example: one → 1, two → 2, ..., twentysix → 26
 7. **Numerical to Alphabetical Converter**
 
-   * Example: 1 → A, 2 → B, ..., 26 → Z
+   * Example: 1 → one, 2 → two, ..., 26 → twentysix
 
 <!-- 8. **Port Scanner** *(coming soon)* -->
 
