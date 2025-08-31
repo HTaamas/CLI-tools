@@ -29,6 +29,9 @@ int main() {
         // case 8: portScan(); break;
         default: cout << "Invalid choice" << endl;
     }
+    
+    std::cout << "Press Enter to exit!" << endl;
+    std::getline(std::cin, choice);
 
     return 0;
 }
